@@ -7,7 +7,6 @@ fast_finish: false
 os: osx
 
 compiler:
-  - clang
   - gcc
 
 osx_image: 
