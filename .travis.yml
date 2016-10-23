@@ -1,0 +1,18 @@
+language: cpp
+git:
+  depth: 1
+
+fast_finish: false
+
+os: osx
+
+compiler:
+  - clang
+  - gcc
+
+osx_image: 
+  - xcode7.3
+  - xcode8
+
+script:
+  - g++ main.cpp
