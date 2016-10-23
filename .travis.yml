@@ -14,4 +14,4 @@ osx_image:
   - xcode8
 
 script:
-  - g++ main.cpp
+  - gcc main.cpp
